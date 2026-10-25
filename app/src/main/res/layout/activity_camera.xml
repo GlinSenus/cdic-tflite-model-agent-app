@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraActivity">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/viewFinder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:scaleType="centerCrop"
+		android:adjustViewBounds="false"
+        android:visibility="gone"
+		android:background="#000"
+        android:contentDescription="Captured image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="24dp">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/captureButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="Capture Image"
+            app:backgroundTint="?attr/colorPrimary"
+            app:srcCompat="@android:drawable/ic_menu_camera" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/galleryButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Open Gallery"
+            app:backgroundTint="?attr/colorPrimary"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

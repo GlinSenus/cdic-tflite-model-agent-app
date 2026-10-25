@@ -1,0 +1,66 @@
+[
+  {
+    "artifactId": "kotlin-stdlib",
+    "excludes": [],
+    "groupId": "org.jetbrains.kotlin",
+    "scope": "compile",
+    "versionName": "1.5.21"
+  },
+  {
+    "artifactId": "appcompat",
+    "excludes": [],
+    "groupId": "androidx.appcompat",
+    "scope": "compile",
+    "versionName": "1.3.1"
+  },
+  {
+    "artifactId": "material",
+    "excludes": [],
+    "groupId": "com.google.android.material",
+    "scope": "compile",
+    "versionName": "1.4.0"
+  },
+  {
+    "artifactId": "constraintlayout",
+    "excludes": [],
+    "groupId": "androidx.constraintlayout",
+    "scope": "compile",
+    "versionName": "2.1.0"
+  },
+  {
+    "artifactId": "camera-core",
+    "excludes": [],
+    "groupId": "androidx.camera",
+    "versionName": "1.1.0"
+  },
+  {
+    "artifactId": "camera-camera2",
+    "excludes": [],
+    "groupId": "androidx.camera",
+    "versionName": "1.1.0"
+  },
+  {
+    "artifactId": "camera-lifecycle",
+    "excludes": [],
+    "groupId": "androidx.camera",
+    "versionName": "1.1.0"
+  },
+  {
+    "artifactId": "camera-view",
+    "excludes": [],
+    "groupId": "androidx.camera",
+    "versionName": "1.0.0-alpha30"
+  },
+  {
+    "artifactId": "tensorflow-lite",
+    "excludes": [],
+    "groupId": "org.tensorflow",
+    "versionName": "2.10.0"
+  },
+  {
+    "artifactId": "tensorflow-lite-support",
+    "excludes": [],
+    "groupId": "org.tensorflow",
+    "versionName": "0.4.3"
+  }
+]

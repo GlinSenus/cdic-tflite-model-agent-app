@@ -1,0 +1,305 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/appIcon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:contentDescription="App Icon"
+                android:src="@drawable/ic_launcher_round" />
+
+            <TextView
+                android:id="@+id/mainText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="24dp"
+                android:text="@string/app_intro"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/dtcto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="24dp"
+                android:gravity="left"
+                android:text="@string/dtcto"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:gravity="center"
+                    android:text="Bud Rot"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/circle_image_border"
+                    android:padding="3dp" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/circle_clip_mask"
+                        android:clipToOutline="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sample_bud_rot" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="28dp"
+                    android:layout_marginVertical="12dp"
+                    android:gravity="center"
+                    android:text="@string/d1"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:gravity="center"
+                    android:text="Caterpillar Infestation"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/circle_image_border"
+                    android:padding="3dp" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/circle_clip_mask"
+                        android:clipToOutline="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sample_caterpillar_infestation" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="28dp"
+                    android:layout_marginVertical="12dp"
+                    android:gravity="center"
+                    android:text="@string/d2"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:gravity="center"
+                    android:text="Leaf Flaccidity"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/circle_image_border"
+                    android:padding="3dp" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/circle_clip_mask"
+                        android:clipToOutline="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sample_leaf_flaccidity" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="28dp"
+                    android:layout_marginVertical="12dp"
+                    android:gravity="center"
+                    android:text="@string/d3"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:gravity="center"
+                    android:text="Leaf Rot"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/circle_image_border"
+                    android:padding="3dp" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/circle_clip_mask"
+                        android:clipToOutline="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sample_leaf_rot" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="28dp"
+                    android:layout_marginVertical="12dp"
+                    android:gravity="center"
+                    android:text="@string/d4"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:gravity="center"
+                    android:text="Gray Leaf Spot"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/circle_image_border"
+                    android:padding="3dp" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/circle_clip_mask"
+                        android:clipToOutline="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sample_gray_leaf_spot" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="28dp"
+                    android:layout_marginVertical="12dp"
+                    android:gravity="center"
+                    android:text="@string/d5"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:gravity="center"
+                    android:text="Leaf Yellowing"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <FrameLayout
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/circle_image_border"
+                    android:padding="3dp" >
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/circle_clip_mask"
+                        android:clipToOutline="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/sample_leaf_yellowing" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="28dp"
+                    android:layout_marginVertical="12dp"
+                    android:gravity="center"
+                    android:text="@string/d6"
+                    android:textSize="18sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- FAB correctly anchored to the bottom right -->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:contentDescription="Camera"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

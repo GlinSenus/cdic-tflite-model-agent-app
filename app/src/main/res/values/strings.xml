@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Coconut Disease Image Classification</string>
+	<string name="app_intro">Welcome! The <b>Coconut Disease Image Classification App</b> is a simple and fast model testing app that identifies common coconut tree diseases using your phone’s camera. This app is powered by a TensorFlow Lite model trained over image datasets of coconut diseases to provide instant disease classification using captured image.</string>
+	<string name="dtcto"><b>Coconut Diseases to Classify:</b></string>
+	<string name="d1">A deadly fungal disease that causes the young unopened leaves and bud to rot, leading to tree death.
+<b>Common cause:</b> Phytophthora palmivora fungus, often spread during prolonged wet or humid conditions.</string>
+	<string name="d2">Caused by leaf-eating caterpillars that chew and damage fronds, reducing photosynthesis and yield.
+<b>Common cause:</b> Larvae of insects such as Opisina arenosella (coconut leaf caterpillar).</string>
+	<string name="d3">Characterized by drooping and wilted leaves that lose their natural firmness and color.
+<b>Common cause:</b> Nutrient deficiency (especially potassium or magnesium), water stress, or root damage.</string>
+	<string name="d4">Dark, decaying spots appear on leaves, spreading rapidly during wet seasons and weakening the palm.
+<b>Common cause:</b> Fungal pathogens like Helminthosporium or Colletotrichum species.
+</string>
+	<string name="d5">Small, grayish-brown lesions develop on leaves, which later enlarge and merge, reducing leaf health.
+<b>Common cause:</b> Fungal infection by Pestalotiopsis palmarum, favored by high humidity.</string>
+	<string name="d6">Leaves turn yellow prematurely, starting from the older fronds, leading to reduced growth.
+<b>Common cause:</b> Nutrient deficiencies (especially nitrogen or magnesium), poor drainage, or pest attack.</string>
+
+</resources>

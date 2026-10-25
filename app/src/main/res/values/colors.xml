@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Coconut Leaf Green Palette -->
+    <color name="coconut_green_light">#A5D6A7</color> <!-- light leaf tone -->
+    <color name="coconut_green">#4CAF50</color> <!-- main coconut leaf green -->
+    <color name="coconut_green_dark">#388E3C</color> <!-- deeper shade for status bar -->
+
+
+    <!-- Text & other UI colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>
